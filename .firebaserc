@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "lafeuille-print-a-calendar": {
+      "hosting": {
+        "print-a-calendar": [
+          "lafeuille-print-a-calendar"
+        ]
+      }
+    }
+  }
+}

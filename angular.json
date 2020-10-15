@@ -130,6 +130,10 @@
               "devServerTarget": "print-a-calendar:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
