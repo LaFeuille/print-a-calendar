@@ -16,5 +16,5 @@ jobs:
         with:
           node-version: '12'
       - run: npm ci
-      - run: npm test -- --watch=false --browsers ChromeHeadless --code-coverage --source-map true
+      - run: npm run test:ci
       - run: npm run build -- --prod
